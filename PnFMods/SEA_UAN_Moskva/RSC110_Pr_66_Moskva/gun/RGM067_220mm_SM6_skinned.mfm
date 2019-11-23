@@ -1,0 +1,20 @@
+<RGM067_220mm_SM6_skinned.mfm>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_skinned_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	2.00000	</Float>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/gun/RGM067_220mm_SM6_mg.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/gun/RGM067_220mm_SM6_n.tga	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/gun/RGM067_220mm_SM6_a.tga	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/gun/default_ao.tga	</Texture>
+	</property>
+</RGM067_220mm_SM6_skinned.mfm>

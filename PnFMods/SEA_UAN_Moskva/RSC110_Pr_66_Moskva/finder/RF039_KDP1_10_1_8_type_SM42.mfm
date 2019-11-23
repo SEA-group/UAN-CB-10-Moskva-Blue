@@ -1,0 +1,17 @@
+<RF039_KDP1_10_1_8_type_SM42.mfm>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_ship_emissive.fx	</fx>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/finder/RF039_KDP1_10_1_8_type_SM42_mg.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/finder/RF039_KDP1_10_1_8_type_SM42_n.tga	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/finder/RF039_KDP1_10_1_8_type_SM42_a.tga	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/finder/default_ao.tga	</Texture>
+	</property>
+</RF039_KDP1_10_1_8_type_SM42.mfm>

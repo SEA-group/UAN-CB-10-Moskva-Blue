@@ -1,0 +1,17 @@
+<RRS042_Zalp_skinned.mfm>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_ship_skinned.fx	</fx>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS042_Zalp_a.tga	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS042_Zalp_mg.tga	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/default_ao.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS042_Zalp_n.tga	</Texture>
+	</property>
+</RRS042_Zalp_skinned.mfm>

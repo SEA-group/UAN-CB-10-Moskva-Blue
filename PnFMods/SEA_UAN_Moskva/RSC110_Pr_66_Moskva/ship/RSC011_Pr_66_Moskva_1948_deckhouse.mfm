@@ -1,0 +1,20 @@
+<RSC011_Pr_66_Moskva_1948_deckhouse.mfm>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_ship_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	2.00000	</Float>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/ship/RSC011_Pr_66_Moskva_1948_deckhouse_a.tga	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/ship/RSC011_Pr_66_Moskva_1948_deckhouse_mg.tga	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/ship/RSC011_Pr_66_Moskva_1948_deckhouse_ao.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/ship/RSC011_Pr_66_Moskva_1948_deckhouse_n.tga	</Texture>
+	</property>
+</RSC011_Pr_66_Moskva_1948_deckhouse.mfm>

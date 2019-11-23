@@ -1,1 +1,8 @@
-<RRS045_Foot_B.model><castsShadow>false</castsShadow><exporter>1.6</exporter><parent>PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS045_Foot_B_lod1</parent><nodefullVisual>PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS045_Foot_B</nodefullVisual><extent>2.000000</extent><metaData>Wargaming | Lesta Studio</metaData></RRS045_Foot_B.model>
+<RRS045_Foot_B.model>
+	<castsShadow>	false	</castsShadow>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS045_Foot_B_lod1	</parent>
+	<nodefullVisual>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS045_Foot_B	</nodefullVisual>
+	<extent>	2.000000	</extent>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</RRS045_Foot_B.model>

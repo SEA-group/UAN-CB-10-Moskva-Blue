@@ -1,1 +1,132 @@
-<RSC011_Pr_66_Moskva_1948_Bow_ports.visual><boundingBox><min>-0.066700 -0.066700 -0.066700</min><max>0.066700 0.066700 0.066700</max></boundingBox><node><identifier>Scene Root</identifier><transform><row0>1.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000</row1><row2>0.000000 0.000000 1.000000</row2><row3>0.000000 0.000000 0.000000</row3></transform><node><identifier>Bow_ports</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 0.000000 1.000000</row3></transform><node><identifier>HP_RGM_1</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.486083 4.359804 1.000000</row3></transform></node><node><identifier>MP_RTC0421</identifier><transform><row0>1.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000</row1><row2>0.000000 0.000000 1.000000</row2><row3>0.000000 0.522949 6.465093</row3></transform></node><node><identifier>MP_RTC0419</identifier><transform><row0>1.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000</row1><row2>0.000000 0.000000 1.000000</row2><row3>0.000000 0.490087 5.693430</row3></transform></node><node><identifier>MP_CM011_Fire_Fighting_Gear</identifier><transform><row0>-0.793295 0.000000 -0.608838 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.608838 0.000000 -0.793295 0.000000</row2><row3>-0.198878 0.459688 4.591751 1.000000</row3></transform></node><node><identifier>MP_CTC0646</identifier><transform><row0>1.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000</row1><row2>0.000000 0.000000 1.000000</row2><row3>0.000000 0.560544 7.494489</row3></transform></node><node><identifier>MP_CTC0647</identifier><transform><row0>1.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000</row1><row2>0.000000 0.000000 1.000000</row2><row3>0.000000 0.561585 7.495261</row3></transform></node><node><identifier>MP_RTC0423</identifier><transform><row0>1.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000</row1><row2>0.000000 0.000000 1.000000</row2><row3>0.000000 0.536106 8.283627</row3></transform></node><node><identifier>MP_RM141_Signal_Lamp</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 1.007843 8.441530 1.000000</row3></transform></node><node><identifier>HP_Fire_Burn_1</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 6.552608 1.000000</row3></transform></node><node><identifier>HP_Ship_death_1</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 3.841920 1.000000</row3></transform></node></node></node></RSC011_Pr_66_Moskva_1948_Bow_ports.visual>
+<RSC011_Pr_66_Moskva_1948_Bow_ports.visual>
+	<boundingBox>
+		<min>	-0.066700 -0.066700 -0.066700	</min>
+		<max>	0.066700 0.066700 0.066700	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.3484 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4881 5.9250 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 8.0672 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_RGM_1	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.486083 4.359804 1.000000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RTC0421	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.522949 6.465093	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RTC0419	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.490087 5.693430	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM011_Fire_Fighting_Gear	</identifier>
+				<transform>
+					<row0>	-0.793295 0.000000 -0.608838 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.608838 0.000000 -0.793295 0.000000	</row2>
+					<row3>	-0.198878 0.459688 4.591751 1.000000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CTC0646	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.560544 7.494489	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CTC0647	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.561585 7.495261	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RTC0423	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.536106 8.283627	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM141_Signal_Lamp	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 1.007843 8.441530 1.000000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 3.841920 1.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+</RSC011_Pr_66_Moskva_1948_Bow_ports.visual>

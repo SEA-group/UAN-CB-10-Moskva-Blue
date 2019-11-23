@@ -1,1 +1,158 @@
-<RGM067_220mm_SM6_lod1.visual><boundingBox><min>-0.314684 0.000388 -0.462818</min><max>0.314684 0.268866 0.913361</max></boundingBox><node><identifier>Scene Root</identifier><transform><row0>1.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000</row1><row2>0.000000 0.000000 1.000000</row2><row3>0.000000 0.000000 0.000000</row3></transform><node><identifier>Root</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 0.000000 1.000000</row3></transform><node><identifier>Rotate_Y</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.066700 0.000000 1.000000</row3></transform><node><identifier>Rotate_X</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.040361 0.173597 1.000000</row3></transform><node><identifier>Roll_Back1</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 0.740052 1.000000</row3></transform><node><identifier>HP_gunFire1</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.128939 0.000000 0.000000 1.000000</row3></transform></node><node><identifier>HP_gunFire2</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 0.000000 1.000000</row3></transform></node><node><identifier>HP_gunFire3</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>-0.128757 0.000000 0.000000 1.000000</row3></transform></node><node><identifier>Roll_Back1_BlendBone</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 -1.000000 0.000000</row2><row3>0.000000 -0.107061 -0.913649 1.000000</row3></transform></node></node><node><identifier>HP_gunFireEffect</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 0.740051 1.000000</row3></transform></node><node><identifier>Rotate_X_BlendBone</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 -1.000000 0.000000</row2><row3>0.000000 -0.107061 -0.173597 1.000000</row3></transform></node></node><node><identifier>MP_RM308_Neptun</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 -0.066700 0.000000 1.000000</row3></transform></node><node><identifier>Rotate_Y_BlendBone</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 -1.000000 0.000000</row2><row3>0.000000 -0.066700 0.000000 1.000000</row3></transform></node></node><node><identifier>Root_BlendBone</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 -1.000000 0.000000</row2><row3>0.000000 0.000000 0.000000 1.000000</row3></transform></node></node><node><identifier>RGM067_220mm_SM6</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 0.000000 1.000000</row3></transform></node></node><renderSet><treatAsWorldSpaceObject>true</treatAsWorldSpaceObject><node>Root_BlendBone</node><node>Rotate_Y_BlendBone</node><node>Rotate_X_BlendBone</node><node>Roll_Back1_BlendBone</node><geometry><vertices>RGM067_220mm_SM6_lodShape1.vertices</vertices><primitive>RGM067_220mm_SM6_lodShape1.indices</primitive><primitiveGroup>0<material><identifier>SHIPMAT_PBS_GunX</identifier><mfm>PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/gun/eb6c9b70e69d85366571d5e53c5f2bbd.mfm</mfm></material></primitiveGroup></geometry></renderSet></RGM067_220mm_SM6_lod1.visual>
+<RGM067_220mm_SM6_lod1.visual>
+	<boundingBox>
+		<min>	-0.314684 0.000388 -0.462818	</min>
+		<max>	0.314684 0.268866 0.913361	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Root	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Rotate_Y	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.066700 0.000000 1.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Rotate_X	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.040361 0.173597 1.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Roll_Back1	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+							<row3>	0.000000 0.000000 0.740052 1.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	HP_gunFire1	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+								<row3>	0.128939 0.000000 0.000000 1.000000	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	HP_gunFire2	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+								<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	HP_gunFire3	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+								<row3>	-0.128757 0.000000 0.000000 1.000000	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	Roll_Back1_BlendBone	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+								<row3>	0.000000 -0.107061 -0.913649 1.000000	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	HP_gunFireEffect	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+							<row3>	0.000000 0.000000 0.740051 1.000000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Rotate_X_BlendBone	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+							<row3>	0.000000 -0.107061 -0.173597 1.000000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	MP_RM308_Neptun	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 -0.066700 0.000000 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Rotate_Y_BlendBone	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+						<row3>	0.000000 -0.066700 0.000000 1.000000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Root_BlendBone	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	RGM067_220mm_SM6	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Root_BlendBone	</node>
+		<node>	Rotate_Y_BlendBone	</node>
+		<node>	Rotate_X_BlendBone	</node>
+		<node>	Roll_Back1_BlendBone	</node>
+		<geometry>
+			<vertices>	RGM067_220mm_SM6_lodShape1.vertices	</vertices>
+			<primitive>	RGM067_220mm_SM6_lodShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_GunX	</identifier>
+					<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/gun/RGM067_220mm_SM6_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</RGM067_220mm_SM6_lod1.visual>

@@ -1,0 +1,17 @@
+<RGA089_25mm_4M120_dead.mfm>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_ship.fx	</fx>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/gun/RGA089_25mm_4M120_dead_mg.tga	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/gun/default_ao.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/gun/RGA089_25mm_4M120_n.tga	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/gun/RGA089_25mm_4M120_dead_a.tga	</Texture>
+	</property>
+</RGA089_25mm_4M120_dead.mfm>
