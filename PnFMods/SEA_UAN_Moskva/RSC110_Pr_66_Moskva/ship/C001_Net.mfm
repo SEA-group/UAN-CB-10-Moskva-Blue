@@ -1,26 +1,14 @@
 <C001_Net.mfm>
+	<fx>	shaders/std_effects/grid_alpha.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<materialKind>	0	</materialKind>
-	<fx>	shaders/std_effects/PBS_ship.fx	</fx>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/ship/C001_Net_alpha_a.dds	</Texture>
+	</property>
 	<property>	doubleSided
 		<Bool>	true	</Bool>
 	</property>
-	<property>	alphaTestEnable
-		<Bool>	true	</Bool>
-	</property>
 	<property>	alphaReference
-		<Int>	150	</Int>
-	</property>
-	<property>	normalMap
-		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/ship/default_n.tga	</Texture>
-	</property>
-	<property>	metallicGlossMap
-		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/ship/C001_Net_mg.tga	</Texture>
-	</property>
-	<property>	diffuseMap
-		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/ship/C001_Net_a.tga	</Texture>
-	</property>
-	<property>	ambientOcclusionMap
-		<Texture>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/ship/default_ao.tga	</Texture>
+		<Int>	145	</Int>
 	</property>
 </C001_Net.mfm>
