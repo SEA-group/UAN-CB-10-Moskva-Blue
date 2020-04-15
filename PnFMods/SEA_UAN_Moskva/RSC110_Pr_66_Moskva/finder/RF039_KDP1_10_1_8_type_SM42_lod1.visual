@@ -21,8 +21,8 @@
 		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
 		<node>	RF039_KDP1_10_1_8_type_SM42	</node>
 		<geometry>
-			<vertices>	RF039_KDP1_10_1_8_type_SM42_lodShape1.vertices	</vertices>
-			<primitive>	RF039_KDP1_10_1_8_type_SM42_lodShape1.indices	</primitive>
+			<vertices>	RF039_KDP1_10_1_8_type_SM42_lod1Shape.vertices	</vertices>
+			<primitive>	RF039_KDP1_10_1_8_type_SM42_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
 					<identifier>	SHIPMAT_PBS_DirectorX	</identifier>
