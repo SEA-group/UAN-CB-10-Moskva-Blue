@@ -263,6 +263,42 @@
 				</transform>
 			</node>
 			<node>
+				<identifier>	HP_RRS_11	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.1296 2.4025 -1.7357 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_RRS_12	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 2.4668 -1.7357 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_RRS_13	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.1296 2.4025 -1.7357 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_RRS_14	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 2.2004 -2.1304 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
 				<identifier>	HP_flag_courtesy	</identifier>
 				<transform>
 					<row0>	0.999885 0.015116 0.000923 0.000000	</row0>
