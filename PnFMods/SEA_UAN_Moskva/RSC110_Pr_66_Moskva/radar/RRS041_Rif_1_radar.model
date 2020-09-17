@@ -6,7 +6,7 @@
 		<filler>	true	</filler>
 	</action>
 	<exporter>	1.6	</exporter>
-	<parent>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS041_Rif_1_radar_lod1	</parent>
+	<parent>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/lods/RRS041_Rif_1_radar_lod1	</parent>
 	<extent>	2.000000	</extent>
 	<materialNames />
 	<animation>

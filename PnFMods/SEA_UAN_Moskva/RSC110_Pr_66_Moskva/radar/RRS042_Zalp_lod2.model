@@ -1,8 +1,0 @@
-<RRS042_Zalp_lod2.model>
-	<castsShadow>	false	</castsShadow>
-	<exporter>	1.6	</exporter>
-	<parent>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS042_Zalp_lod3	</parent>
-	<nodefullVisual>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS042_Zalp_lod2	</nodefullVisual>
-	<extent>	6.000000	</extent>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</RRS042_Zalp_lod2.model>

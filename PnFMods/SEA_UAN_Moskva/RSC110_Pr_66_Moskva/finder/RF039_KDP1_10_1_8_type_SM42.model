@@ -1,7 +1,7 @@
 <RF039_KDP1_10_1_8_type_SM42.model>
 	<castsShadow>	false	</castsShadow>
 	<exporter>	1.6	</exporter>
-	<parent>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/finder/RF039_KDP1_10_1_8_type_SM42_lod1	</parent>
+	<parent>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/finder/lods/RF039_KDP1_10_1_8_type_SM42_lod1	</parent>
 	<nodefullVisual>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/finder/RF039_KDP1_10_1_8_type_SM42	</nodefullVisual>
 	<extent>	2.000000	</extent>
 	<materialNames />
