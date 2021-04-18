@@ -75,7 +75,7 @@
 			<primitive>	RRS041_Rif_1_Radar_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_DirectorX	</identifier>
+					<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS041_Rif_1_radar_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -89,7 +89,7 @@
 			<primitive>	RRS041_Rif_1_Radar_grid_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_Net	</identifier>
+					<identifier>	SHIPMATX_PBS_Net	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/C001_Net_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>

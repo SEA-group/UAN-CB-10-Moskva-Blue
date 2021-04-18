@@ -149,7 +149,7 @@
 			<primitive>	RGM067_220mm_SM6Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_GunX	</identifier>
+					<identifier>	SHIPMATX_PBS_GunX	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/gun/RGM067_220mm_SM6_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>

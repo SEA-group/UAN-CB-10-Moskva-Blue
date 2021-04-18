@@ -29,7 +29,7 @@
 			<primitive>	Full_lod4Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_HullX	</identifier>
+					<identifier>	SHIPMATX_PBS_HullX	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/ship/RSC011_Pr_66_Moskva_1948.mfm	</mfm>
 				</material>
 			</primitiveGroup>
