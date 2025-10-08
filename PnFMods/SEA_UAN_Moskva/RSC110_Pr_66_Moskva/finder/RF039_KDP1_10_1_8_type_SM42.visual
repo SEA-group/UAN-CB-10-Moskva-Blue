@@ -1,38 +1,106 @@
 <RF039_KDP1_10_1_8_type_SM42.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	RF039_KDP1_10_1_8_type_SM42	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
 			</transform>
+			<node>
+				<identifier>	RF039_KDP1_10_1_8_type_SM42	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	RF039_KDP1_10_1_8_type_SM42	</node>
-		<geometry>
-			<vertices>	RF039_KDP1_10_1_8_type_SMShape42.vertices	</vertices>
-			<primitive>	RF039_KDP1_10_1_8_type_SMShape42.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
-					<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/finder/RF039_KDP1_10_1_8_type_SM42.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.371748 -0.118173 -0.179457	</min>
 		<max>	0.371748 0.434855 0.184700	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	RF039_KDP1_10_1_8_type_SMShape42	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	RF039_KDP1_10_1_8_type_SM42	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/finder/RF039_KDP1_10_1_8_type_SM42.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	RF039_KDP1_10_1_8_type_SM42_lodShape1	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	RF039_KDP1_10_1_8_type_SM42	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/finder/RF039_KDP1_10_1_8_type_SM42.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	RF039_KDP1_10_1_8_type_SM42_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	RF039_KDP1_10_1_8_type_SM42	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/finder/RF039_KDP1_10_1_8_type_SM42.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	RF039_KDP1_10_1_8_type_SM42_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	RF039_KDP1_10_1_8_type_SM42	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/finder/RF039_KDP1_10_1_8_type_SM42.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	2.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	RF039_KDP1_10_1_8_type_SMShape42	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	7.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	RF039_KDP1_10_1_8_type_SM42_lodShape1	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	15.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	RF039_KDP1_10_1_8_type_SM42_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	100.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	RF039_KDP1_10_1_8_type_SM42_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </RF039_KDP1_10_1_8_type_SM42.visual>

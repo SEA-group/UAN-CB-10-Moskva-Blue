@@ -1,75 +1,146 @@
 <RRS042_Zalp.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Root	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
 			</transform>
 			<node>
-				<identifier>	Rotate_Y	</identifier>
+				<identifier>	Root	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
 					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.033350 0.000000 1.000000	</row3>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 				</transform>
 				<node>
-					<identifier>	Rotate_Y_BlendBone	</identifier>
+					<identifier>	Rotate_Y	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.033350 0.000000 1.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Rotate_Y_BlendBone	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+							<row3>	0.000000 -0.033350 0.000000 1.000000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Root_BlendBone	</identifier>
 					<transform>
 						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
 						<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
-						<row3>	0.000000 -0.033350 0.000000 1.000000	</row3>
+						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 					</transform>
 				</node>
 			</node>
 			<node>
-				<identifier>	Root_BlendBone	</identifier>
+				<identifier>	RRS042_Zalp	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
 					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 				</transform>
 			</node>
 		</node>
-		<node>
-			<identifier>	RRS042_Zalp	</identifier>
-			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-			</transform>
-		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
-		<node>	Root_BlendBone	</node>
-		<node>	Rotate_Y_BlendBone	</node>
-		<geometry>
-			<vertices>	RRS042_ZalpShape.vertices	</vertices>
-			<primitive>	RRS042_ZalpShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
-					<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS042_Zalp_skinned.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.075261 0.000000 -0.032392	</min>
 		<max>	0.075261 0.090182 0.083692	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	RRS042_ZalpShape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Root_BlendBone	</node>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS042_Zalp_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	RRS042_Zalp_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Root_BlendBone	</node>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS042_Zalp_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	RRS042_Zalp_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Root_BlendBone	</node>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS042_Zalp_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	RRS042_Zalp_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Root_BlendBone	</node>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Moskva/RSC110_Pr_66_Moskva/radar/RRS042_Zalp_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	2.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	RRS042_ZalpShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	4.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	RRS042_Zalp_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	6.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	RRS042_Zalp_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	30.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	RRS042_Zalp_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </RRS042_Zalp.visual>
